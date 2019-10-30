@@ -1,3 +1,5 @@
 import axios from "axios";
 
-export default axios.create("http://localhost:8080/users/");
+export default axios.create({
+  url: "http://localhost:8080/users/"
+});
